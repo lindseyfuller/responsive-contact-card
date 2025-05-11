@@ -7,6 +7,7 @@ body {
     align-items: center;
     text-align: center;
     margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
@@ -40,24 +41,12 @@ img {
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
-    font-size: x-large;
+    font-size: larger;
     align-items: center;
     justify-content: center;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-    .container {
-    display: flex;
-    flex-direction: row;
-    }
-    img{
-        display: block;
-        align-items: left;
-        width: 20%;
-        border-radius: 50%;
-    }
-.Items {
-    align-items: right;
-}
 
-    
+@media only screen and (min-width: 768px) {
+
+} 
